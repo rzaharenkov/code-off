@@ -31,3 +31,7 @@ HELLO
 ```
 
 Use the end of file (Ctrl-D) or terminate (Ctrl-C) to exit.
+
+### Code Status ###
+
+[![Build Status](https://travis-ci.org/rzaharenkov/code-off.svg?branch=master)](https://travis-ci.org/rzaharenkov/code-off)
