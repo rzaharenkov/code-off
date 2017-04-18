@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/client'
+
+trap "SIGINT" do
+  exit 0
+end
+
+input = ARGV.size > 0 ? File.open(ARGV.first) : STDIN
+Client.new(input).run
