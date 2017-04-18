@@ -10,19 +10,19 @@ More details [here](https://gist.github.com/kmckelvin/41a4a69e397b510274373aa241
 
 ### How to use ###
 
-1. Checkout the project:
+Checkout the project:
 
 ```
 git clone git@github.com:rzaharenkov/code-off.git
 ```
 
-2. Translate text from the file:
+Translate text from the file:
 
 ```
 bin/code-off spec/test_data/success_test.txt
 ```
 
-3. Run translator in the interactive mode:
+Run translator in the interactive mode:
 
 ```
 bin/code-off
